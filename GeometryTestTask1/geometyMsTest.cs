@@ -25,7 +25,7 @@ namespace GeometryTestTask.Tests
         }
 
         [TestMethod]
-        public void CircleNull_NegativeRadius()
+        public void CircleСheck_NegativeRadius()
         {
 
             string radius = null;
@@ -36,7 +36,7 @@ namespace GeometryTestTask.Tests
         }
 
         [TestMethod]
-        public void CircleNull_NotConvertRadius()
+        public void CircleСheck_NotConvertRadius()
         {
 
             string radius = "sdawq";
@@ -57,7 +57,7 @@ namespace GeometryTestTask.Tests
         }
 
         [TestMethod]
-        public void IsRightTriangle_RightTriangle_ReturnsRightTriangleEnum()
+        public void IsRightTriangle_RightTriangle()
         {
             double side1 = 3;
             double side2 = 4;
@@ -66,7 +66,7 @@ namespace GeometryTestTask.Tests
         }
 
         [TestMethod]
-        public void IsRightTriangle_NotRightTriangle_ReturnsNotRightTriangleEnum()
+        public void IsRightTriangle_NotRightTriangle()
         {
             double side1 = 2;
             double side2 = 3;
